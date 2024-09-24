@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.link {
+  padding-top: 37px;
+  padding-left: 8px;
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.header h1 {
+  padding-top: 10px;
+}
+.general {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgb(151, 26, 209), rgb(0, 0, 0));
+  margin: -10px;
+}
+.gof {
+  padding: 30px 50px 0 0;
+}
+.gof .ror {
+  padding: 20px 50px 20px 50px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.gof .rrr {
+  padding: 20px 50px 20px 50px;
+  background: none;
+  border-radius: 10px;
+}
+.gof :hover {
+  transform: scale(1.2);
+  box-shadow: 4px 4px 0 0;
+}
+.how {
+  background: linear-gradient(to left, blue, purple);
+  margin: -70px;
+}
+.how h1 {
+  display: flex;
+  justify-content: center;
+
+  font-size: 100px;
+}
+.how form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 70px 0;
+}
+.how form .input {
+  padding: 20px 200px 20px 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(240, 255, 255, 0.61);
+  position: absolute;
+}
+.how form button {
+  position: relative;
+  margin-left: 400px;
+  background: none;
+  border: none;
+}
+button :hover {
+  transform: scale(1.2);
+}
+.info {
+  display: flex;
+  padding: 100px;
+}
+.uou {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.end {
+  background-color: bisque;
+  margin: -8px;
+  padding: 10px 0 200px 0;
+}
+.fof {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+}
